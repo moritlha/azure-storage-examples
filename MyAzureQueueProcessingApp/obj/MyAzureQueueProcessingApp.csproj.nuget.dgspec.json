@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/moritlhamadisha/Documents/Work/Varsity College/LU1/Labs/Code/MyAzureQueueProcessingApp/MyAzureQueueProcessingApp.csproj": {}
+  },
+  "projects": {
+    "/Users/moritlhamadisha/Documents/Work/Varsity College/LU1/Labs/Code/MyAzureQueueProcessingApp/MyAzureQueueProcessingApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/moritlhamadisha/Documents/Work/Varsity College/LU1/Labs/Code/MyAzureQueueProcessingApp/MyAzureQueueProcessingApp.csproj",
+        "projectName": "MyAzureQueueProcessingApp",
+        "projectPath": "/Users/moritlhamadisha/Documents/Work/Varsity College/LU1/Labs/Code/MyAzureQueueProcessingApp/MyAzureQueueProcessingApp.csproj",
+        "packagesPath": "/Users/moritlhamadisha/.nuget/packages/",
+        "outputPath": "/Users/moritlhamadisha/Documents/Work/Varsity College/LU1/Labs/Code/MyAzureQueueProcessingApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/moritlhamadisha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.21.2, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.19.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
